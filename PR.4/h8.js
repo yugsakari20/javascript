@@ -1,15 +1,15 @@
-// Given numbers
-var a= 4;
-var b= 8;
-var c= 5;
+// Sample Input
+let a = 4;
+let b = 8;
+let c = 5;
 
+// First comparison: num1 > num2
+let firstComparison = a > b;
+console.log(firstComparison); // Output: false
 
-var isGreater1 = a > b;
-console.log(isGreater1); 
+// Adding num3 to num1
+a += c;
 
-
-var sum = a + c;
-
-
-var isGreater2 = sum > b;
-console.log(isGreater2); 
+// Second comparison: num1 > num2 after adding num3 to num1
+let secondComparison = a > b;
+console.log(secondComparison); // Output: true
