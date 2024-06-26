@@ -1,6 +1,6 @@
 
-var a = 20;
-var b = 25;
+let a = 20;
+let b = 25;
 
 
 if (a > b) {

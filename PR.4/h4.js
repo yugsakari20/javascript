@@ -1,13 +1,12 @@
 
-var num1 = 12;
-var num2 = 25;
-var num3 = 9;
+let a = 12;
+let b = 25;
+let c = 9
 
-
-if (num1 > num2 && num1 > num3) {
-    console.log("num1 is the largest: " + num1);
-} else if (num2 > num3) {
-    console.log("num2 is the largest: " + num2);
+if (a > b && a > c) {
+    console.log("a is the largest: " + a);
+} else if (b > c) {
+    console.log("b is the largest: " + b);
 } else {
-    console.log("num3 is the largest: " + num3);
+    console.log("c is the largest: " + c);
 }
